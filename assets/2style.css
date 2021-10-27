@@ -1,0 +1,57 @@
+body {
+  padding: 0.25rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #494e50;
+  margin: 1rem 0;
+}
+
+.col-center {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* .p-year {
+  margin-right: 1rem;
+} */
+
+input[type='radio'] {
+  display: none;
+  margin-right: 0;
+  /* width: auto; */
+}
+
+.radio-label {
+  position: relative;
+  color: #1f618d;
+  font-size: 1rem;
+  border: 1px solid #1f618d;
+  border-radius: 5px;
+  padding: 0.125rem 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.radio-input {
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 1.15rem;
+}
+
+.radio-label:before {
+  display: none;
+}
+
+input[type='radio']:checked + .radio-label {
+  background-color: #a6acaf;
+  color: white;
+}
+
+input[type='radio']:checked + .radio-label:before {
+  display: none;
+}
